@@ -20,6 +20,6 @@ resource "aws_instance" "ec2TeraformInstance" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "TerraFormEC2"
+    Name = "Terra_AWS_EC2"
   }
 }
