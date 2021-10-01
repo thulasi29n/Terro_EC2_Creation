@@ -15,11 +15,11 @@ variable "AWS_SECRET_ACCESS_KEY" {
 
 }
 
-resource "aws_instance" "ec2TeraformInstance" {
+/*resource "aws_instance" "ec2TeraformInstance" {
   ami           = "ami-09e67e426f25ce0d7" // this is from  aws EC2
   instance_type = "t3.micro"
 
   tags = {
     Name = "Terra_AWS_EC2"
   }
-}
+}*/
